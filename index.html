@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>Advent Calendar</title>
+
+        <meta charset="utf-8">
+
+        <style>
+
+            body {
+                background: url(AdventBackground.jpg);
+               background-size: 100% 100%;
+                background-repeat: no-repeat-y;
+
+                
+            }
+
+            .doorOne {
+                top:400px;
+                right:800px;
+                width: 100px;
+                height: 330px;
+                margin-top: 175px;
+                margin-left: 100px;
+                border-style: none;
+                
+                padding-right:0px;
+                
+            }
+
+            .doorTwo {
+                top:400px;
+                right:800px;
+                width: 100px;
+                height: 330px;
+                margin-top: 175px;
+                margin-left: 47px;
+                border-style: none;
+                padding-left:0px;
+                
+            }
+
+            .doorThree {
+                top:400px;
+                right:800px;
+                width: 100px;
+                height: 330px;
+                margin-top: 175px;
+                margin-left: 52px;
+                border-style: none;
+                padding-left:0px;
+                
+            }
+
+            .doorFour {
+                top:400px;
+                right:800px;
+                width: 100px;
+                height: 330px;
+                margin-top: 175px;
+                margin-left: 76px;
+                border-style: none;
+                padding-left:0px;
+                
+            }            
+
+            .doorFive {
+                top:400px;
+                right:800px;
+                width: 100px;
+                height: 330px;
+                margin-top: 175px;
+                margin-left: 66px;
+                border-style: none;
+                padding-left:0px;
+                
+            }    
+
+            .doorSix {
+                top:400px;
+                right:800px;
+                width:110px;
+                height: 300px;
+                margin-top: 72px;
+                margin-left: 94px;
+                border-style: none;
+                padding-left:0px;
+                
+            }            
+
+            .doorSeven {
+                top:400px;
+                right:800px;
+                width:110px;
+                height: 300px;
+                margin-top: 72px;
+                margin-left: 47px;
+                border-style: none;
+                padding-left:0px;
+                
+            }     
+            .doorEight {
+                top:400px;
+                right:800px;
+                width:110px;
+                height: 300px;
+                margin-top: 72px;
+                margin-left: 47px;
+                border-style: none;
+                padding-left:0px;
+                
+            }           
+
+            .doorNine {
+                top:400px;
+                right:800px;
+                width:110px;
+                height: 300px;
+                margin-top: 72px;
+                margin-left: 57px;
+                border-style: none;
+                padding-left:0px;
+                
+            }   
+            
+            .doorTen {
+                top:400px;
+                right:800px;
+                width:110px;
+                height: 300px;
+                margin-top: 72px;
+                margin-left: 57px;
+                border-style: none;
+                padding-left:0px;
+                
+            }  
+
+
+            
+        </style>
+        <script>
+            var audio1 = new Audio("Day1.mp3");
+            audio1.oncanplaythrough = function() {}
+            audio1.onended = function() {}
+
+            var audio2 = new Audio("Day2.mp3");
+            audio2.oncanplaythrough = function() {}
+            audio2.onended = function() {}
+
+            var audio3 = new Audio("Day3.mp3");
+            audio3.oncanplaythrough = function() {}
+            audio3.onended = function() {}
+
+            var audio4 = new Audio("Day4.mp3");
+            audio4.oncanplaythrough = function() {}
+            audio4.onended = function() {}
+        </script>
+    </head>
+    <body>
+        <audio id="sound1" src = "boof.mp3" preload="auto"></audio>
+
+        <button type="button" class="DoorOne" onclick="audio1.play()">
+
+        </button>
+        <button type="button" class = "DoorTwo" onclick="audio2.play()">
+
+        </button>
+
+        <button type="button" class = "DoorThree" onclick="audio3.play()">
+
+        </button>
+
+        <button type="button" class = "DoorFour" onclick="audio4.play()">
+ 
+        </button>
+
+        <button type="button" class = "DoorFive">
+
+        </button>
+
+        <button type="button" class = "DoorSix">
+
+        </button>
+
+        <button type="button" class = "DoorSeven">
+
+        </button>
+
+        <button type="button" class = "DoorEight">
+
+        </button>
+
+        <button type="button" class = "DoorNine">
+
+        </button>
+
+        <button type="button" class = "DoorTen">
+
+        </button>
+    </body>
+</html>
