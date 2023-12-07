@@ -89,7 +89,7 @@
                 margin-left: 94px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;
+              
                 
             }            
 
@@ -177,6 +177,10 @@
             audio5.oncanplaythrough = function() {}
             audio5.onended = function() {}
 
+            var audio6 = new Audio("Day6.mp3");
+            audio6.oncanplaythrough = function() {}
+            audio6.onended = function() {}
+
             var boof = new Audio("Boof.mp3");
             boof.oncanplaythrough = function() {}
             boof.onended = function() {}
@@ -203,7 +207,7 @@
 
         </button>
 
-        <button type="button" class = "DoorSix">
+        <button type="button" class = "DoorSix" onclick="audio6.play()">
 
         </button>
 
