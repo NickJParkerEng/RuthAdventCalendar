@@ -99,13 +99,12 @@
                 right:800px;
                 width:110px;
                 height: 300px;
-                margin-top: 72px;
+                margin-top: 90px;
                 margin-left: 47px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;
-                
-            }     
+            }    
+             
             .doorEight {
                 top:400px;
                 right:800px;
@@ -182,6 +181,10 @@
             audio6.oncanplaythrough = function() {}
             audio6.onended = function() {}
 
+            var audio7 = new Audio("Day7.mp3");
+            audio7.oncanplaythrough = function() {}
+            audio7.onended = function() {}
+
             var boof = new Audio("Boof.mp3");
             boof.oncanplaythrough = function() {}
             boof.onended = function() {}
@@ -212,7 +215,7 @@
 
         </button>
 
-        <button type="button" class = "DoorSeven">
+        <button type="button" class = "DoorSeven" onclick="audio7.play()">
 
         </button>
 
