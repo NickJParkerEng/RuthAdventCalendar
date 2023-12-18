@@ -6,8 +6,8 @@
 
         <style>
 
-            body {
-                background: url(AdventBackground.jpg);
+            Body {
+                background: url(Shower.jpg);
                background-size: 100% 100%;
                 background-repeat: no-repeat-y;
 
@@ -209,7 +209,8 @@
                 margin-left: 57px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;  
+                background-color: transparent;
+                 
             } 
 
 
@@ -287,6 +288,12 @@
                 audio15.oncanplaythrough = function (){}
                 audio15.onended = function (){}
 
+                function change_bg()
+                {
+                    //document.body.style.backgroundimage = "url('Shower.jpg')";
+                    document.getElementById("myDIV").style.backgroundimage = "url(Shower.jpg)";
+                }
+
            </script>
     </head>
     <body>
@@ -346,7 +353,7 @@
 
         </button>
 
-        <button type="button" class = "DoorFifteen" onclick="audio15.play()">
+        <button type="button" class = "DoorFifteen" onclick="change_bg()">
 
         </button>
 
