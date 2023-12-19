@@ -19,12 +19,12 @@
                 right:800px;
                 width: 100px;
                 height: 330px;
-                margin-top: 175px;
+                margin-top: 320px;
                 margin-left: 100px;
                 border-style: none;
                 
                 padding-right:0px;
-                background-color: transparent;
+                background-color: transparent;  
                 
             }
 
@@ -37,7 +37,7 @@
                 margin-left: 47px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;
+                background-color: transparent;  
                 
             }
 
@@ -50,7 +50,7 @@
                 margin-left: 52px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;
+                background-color: transparent;  
                 
             }
 
@@ -88,7 +88,7 @@
                 margin-left: 94px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;
+                background-color: transparent;  
               
                 
             }            
@@ -111,11 +111,11 @@
                 right:800px;
                 width:110px;
                 height: 300px;
-                margin-top: 55px;
+                margin-top: 195px;
                 margin-left: 47px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;
+                background-color: transparent;  
              
                 
             }           
@@ -143,7 +143,7 @@
                 margin-left: 57px;
                 border-style: none;
                 padding-left:0px;
-                background-color: transparent;       
+                background-color: transparent;  
             }  
 
             .doorEleven {
@@ -179,7 +179,7 @@
                 right:800px;
                 width:110px;
                 height: 300px;
-                margin-top: 72px;
+                margin-top: 192px;
                 margin-left: 57px;
                 border-style: none;
                 padding-left:0px;
@@ -198,6 +198,8 @@
                 border-style: none;
                 padding-left:0px;
                 background-color: transparent;  
+                
+    
             } 
 
             .doorFifteen {
@@ -208,10 +210,26 @@
                 margin-top: 72px;
                 margin-left: 57px;
                 border-style: none;
-                padding-left:0px;
-                background-color: transparent;
-                 
+                padding-left:0px;              
+                background-color: transparent;  
             } 
+
+
+            .doorSixteen {
+
+
+                margin-left: 100px;
+                width:110px;
+                height: 300px;
+                margin-top: 250px;
+                padding-left:0px; 
+                background-color: transparent;  
+            } 
+
+
+
+
+
 
 
             .boof {
@@ -288,11 +306,10 @@
                 audio15.oncanplaythrough = function (){}
                 audio15.onended = function (){}
 
-                function change_bg()
-                {
-                    //document.body.style.backgroundimage = "url('Shower.jpg')";
-                    document.getElementById("myDIV").style.backgroundimage = "url(Shower.jpg)";
-                }
+                var audio16 = new Audio('Day16.mp3');
+                audio16.oncanplaythrough = function (){}
+                audio16.onended = function (){}
+
 
            </script>
     </head>
@@ -353,11 +370,13 @@
 
         </button>
 
-        <button type="button" class = "DoorFifteen" onclick="change_bg()">
+        <button type="button" class = "DoorFifteen" onclick="audio15.play()">
 
         </button>
 
+        <button type="button" class = "DoorSixteen" onclick="audio16.play()">
 
+        </button>
 
 
 
